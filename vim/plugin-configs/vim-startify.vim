@@ -31,9 +31,9 @@ autocmd User Startified setlocal buftype=
 "===============================================================================
 " Plugin Keymappings
 "===============================================================================
-" N/A
+nnoremap <Leader>sr  :Startify<CR>
 
 "===============================================================================
 " Unite Keymap Menu Item(s)
 "===============================================================================
-" N/A
+let g:unite_source_menu_menus.CustomKeyMaps.command_candidates += [['➤ Startify                                                      <Leader>sr', 'Startify']]
