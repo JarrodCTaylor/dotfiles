@@ -23,7 +23,7 @@ brew "tig"
 cask "karabiner-elements"
 
 # databases
-cask "postgres"
+cask "postgresql"
 
 # languages
 brew "node"
